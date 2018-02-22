@@ -4,11 +4,11 @@ function forLoop(array)
   {
     if (i === 1)
     {
-     [...array, 'I am 1 strange loop.']
+     [...array, 'I am 1 strange loop.'];
     }
     else 
     {
-     [...array, 'I am ${i} strange loops.']
+     [...array, 'I am ${i} strange loops.'];
     }  
   }
   return array
